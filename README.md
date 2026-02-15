@@ -57,3 +57,17 @@ Example for 5" Raspberry Pi Touch Display 2:
 dtoverlay=vc4-kms-dsi-ili9881-5inch
 ```
 
+Note: Raspberry Pi Touch Display 2 5V power has to be provided separately. 5V is available on GPIO connector, as well as on solder pads at the corner of the board
+
+# CSI Connector
+Connector has standard Raspberry Pi 22-pin CSI connector pinout. Camera modules are not automatically detected and configuration shall be added, for example (Raspberry Pi Camera Module 3):
+```
+dtoverlay=imx708
+```
+
+# DIP-switch
+
+| Switch         | Off                                  | On                                    |
+| -------------- | ------------------------------------ | ------------------------------------- |
+| 1              | Normal operation                     | nRPI_BOOT low                         |
+| 2              | USB data switched to USB-C connector | USB data switched to USB-A connector  |
