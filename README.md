@@ -32,3 +32,28 @@ Tiniest Raspberry Pi board, measuring just 42x36mm! CM0IQ board is based on Rasp
 | USB host       | USB-A connector           | Micro-USB (adapter required) |
 | GPIO connector | 40-pin 1.27mm pitch       | 40-pin 2.54mm pitch          |
 | Antenna        | IPEX-1  antenna connector | Integrated PCB antenna       |
+
+# Mechanical
+CM0IQ outline dimentions are 42x36mm. Four mounting points are M2x0.4 threaded standoffs with 2mm max depth. Standoff height is 1mm
+
+IMPORTANT: screwing deeply than 2mm can permanently damage the board
+
+![Dimentions](Mounting_points.png)
+
+# GPIO Connector
+CM0IQ board has 40-pin 1.27mm pitch GPIO connector, using standard Raspberry Pi GPIO pinout
+
+Pin 1 location:
+
+![Pin1_location](PCB_top.png)
+
+# DSI Connector
+Connector has standard Raspberry Pi 22-pin DSI connector pinout
+
+DSI displays are not automatically detected and configuration to config.txt shall be added. 
+
+Example for 5" Raspberry Pi Touch Display 2:
+```
+dtoverlay=vc4-kms-dsi-ili9881-5inch
+```
+
