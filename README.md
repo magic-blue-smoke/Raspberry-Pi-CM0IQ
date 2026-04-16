@@ -1,6 +1,11 @@
 # Raspberry Pi CM0IQ
 Tiniest Raspberry Pi board, measuring just 42x36mm! CM0IQ board is based on Raspberry Pi/EDATEC CM0 Compute module
 
+# Availability
+Raspberry Pi CM0IQ is available for purchase at [Makerfabs](https://www.makerfabs.com/raspberry-pi-cm0iq.html)
+
+Follow on X: [@magic__smoke](https://twitter.com/magic__smoke)
+
 # Features
 - Raspberry Pi CM0 Lite
   - 1GHz quad-core 64-bit Arm Cortex-A53 processor
