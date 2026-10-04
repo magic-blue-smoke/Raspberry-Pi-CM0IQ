@@ -30,7 +30,7 @@ Follow on X: [@magic__smoke](https://twitter.com/magic__smoke)
 
 | Feature        | CM0IQ                     | RPi Zero 2W                  |
 | -------------- | ------------------------- | ---------------------------- |
-| Dimentions     | 42x36mm, 15.1cm<sup>2</sup> | 65x30mm, 19.5cm<sup>2</sup> |
+| Dimensions     | 42x36mm, 15.1cm<sup>2</sup> | 65x30mm, 19.5cm<sup>2</sup> |
 | Camera         | CSI 4 lanes               | CSI 2 lanes                  |
 | Display        | DSI 4 lanes               | None                         |
 | HDMI           | Micro-HDMI                | Mini-HDMI                    |
@@ -39,11 +39,11 @@ Follow on X: [@magic__smoke](https://twitter.com/magic__smoke)
 | Antenna        | IPEX-1  antenna connector | Integrated PCB antenna       |
 
 # Mechanical
-CM0IQ outline dimentions are 42x36mm. Four mounting points are M2x0.4 threaded standoffs with 2mm max depth. Standoff height is 1mm
+CM0IQ outline dimensions are 42x36mm. Four mounting points are M2x0.4 threaded standoffs with 2mm max depth. Standoff height is 1mm
 
 IMPORTANT: screwing deeply than 2mm can permanently damage the board
 
-![Dimentions](Mounting_points.png)
+![Dimensions](Mounting_points.png)
 
 # GPIO Connector
 CM0IQ board has 40-pin 1.27mm pitch GPIO connector, using standard Raspberry Pi GPIO pinout
