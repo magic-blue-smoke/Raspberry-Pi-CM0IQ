@@ -4,7 +4,9 @@ Tiniest Raspberry Pi board, measuring just 42x36mm! CM0IQ board is based on Rasp
 # Availability
 Raspberry Pi CM0IQ is available for purchase at [Makerfabs](https://www.makerfabs.com/raspberry-pi-cm0iq.html)
 
-Follow on X: [@magic__smoke](https://twitter.com/magic__smoke)
+For the updates:
+- follow on X: [@magic__smoke](https://twitter.com/magic__smoke)
+- follow on Instagram: [magic.blue.smoke](https://www.instagram.com/magic.blue.smoke)
 
 # Features
 - Raspberry Pi CM0 Lite
